@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         display: ['Onest', 'system-ui', 'sans-serif'],
         body: ['Onest', 'system-ui', 'sans-serif'],
+        sans: ['Onest', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "oklch(var(--border))",

@@ -45,7 +45,7 @@ const CaptureIdeasSection = () => {
             </h2>
             <p className="font-body text-base text-muted-foreground max-w-sm mb-8">
               Great ideas don't wait for you to sit down at your desk. 
-              LOUDIO goes where you go, turning every moment of inspiration into actionable text.
+              TONO goes where you go, turning every moment of inspiration into actionable text.
             </p>
 
             {/* Idea notification card */}

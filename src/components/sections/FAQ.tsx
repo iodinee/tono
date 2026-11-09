@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "Does Loudio transcribe my audio or write posts for me?",
-    answer: "Not today. Loudio stores and plays back your recordings and gives you a composer to write the post yourself, next to the audio that inspired it. Automatic transcription and AI drafting are on the roadmap, not in the product.",
+    question: "Does Tono transcribe my audio or write posts for me?",
+    answer: "Not today. Tono stores and plays back your recordings and gives you a composer to write the post yourself, next to the audio that inspired it. Automatic transcription and AI drafting are on the roadmap, not in the product.",
   },
   {
     question: "Can I record straight from the browser?",
@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     question: "How does posting to X work?",
-    answer: "Manually, on purpose. Loudio opens X's compose window with your text already filled in. You review it and hit post, then confirm in Loudio so it's marked published with a timestamp and an optional link to the live post.",
+    answer: "Manually, on purpose. Tono opens X's compose window with your text already filled in. You review it and hit post, then confirm in Tono so it's marked published with a timestamp and an optional link to the live post.",
   },
   {
     question: "Does it publish automatically at the scheduled time?",
-    answer: "No. Scheduling is a plan, not a trigger. Your calendar shows what's due and when, but nothing leaves Loudio until you press share. We never store platform tokens or post in your name.",
+    answer: "No. Scheduling is a plan, not a trigger. Your calendar shows what's due and when, but nothing leaves Tono until you press share. We never store platform tokens or post in your name.",
   },
   {
     question: "What about LinkedIn, Threads and other platforms?",

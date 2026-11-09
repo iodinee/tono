@@ -23,7 +23,7 @@ const Footer = () => {
           {/* Logo & Social */}
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="font-display text-xl font-bold mb-4 block">
-              LOUDIO
+              TONO
             </a>
             <p className="font-body text-xs text-background/60 mb-4">
               Transform your voice into crystal-clear text.
@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <p className="font-body text-xs text-background/60">
-              © {new Date().getFullYear()} LOUDIO. All rights reserved.
+              © {new Date().getFullYear()} TONO. All rights reserved.
             </p>
             <p className="font-body text-xs text-background/60">
               Made with ♥ for creators everywhere
@@ -77,7 +77,7 @@ const Footer = () => {
         {/* Large watermark logo */}
         <div className="mt-10 md:mt-14 overflow-hidden">
           <span className="font-display text-6xl md:text-8xl lg:text-[12rem] font-bold opacity-10 select-none block text-center">
-            LOUDIO
+            TONO
           </span>
         </div>
       </div>
