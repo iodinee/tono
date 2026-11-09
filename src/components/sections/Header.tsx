@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-[100] bg-white w-full ${
+      className={`fixed top-0 left-0 right-0 z-[100] bg-background w-full ${
         isScrolled ? "border-b border-black" : ""
       }`}
     >

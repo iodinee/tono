@@ -69,7 +69,7 @@ const logos: LogoConfig[] = [
 
 export default function Logotypes() {
   return (
-    <section className="bg-white py-16 lg:pt-32 lg:pb-16 px-6 lg:px-0">
+    <section className="bg-background py-16 lg:pt-32 lg:pb-16 px-6 lg:px-0">
       <div className="container mx-auto max-w-[1152px]">
         <div className="relative">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-0 overflow-hidden bg-black">

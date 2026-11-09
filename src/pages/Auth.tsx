@@ -186,7 +186,7 @@ export default function Auth() {
   };
 
   return (
-    <div className="min-h-screen bg-white relative overflow-hidden">
+    <div className="min-h-screen bg-background relative overflow-hidden">
       {/* Grid Background */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Left grid columns - black background with white rounded tiles */}
