@@ -10,12 +10,6 @@ const socialLinks = [
     ariaLabel: "Tono on Instagram",
     path: "M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07ZM12 6.85a5.15 5.15 0 1 0 0 10.3 5.15 5.15 0 0 0 0-10.3Zm0 8.5a3.35 3.35 0 1 1 0-6.7 3.35 3.35 0 0 1 0 6.7Zm6.55-8.7a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z",
   },
-  {
-    label: "Facebook",
-    href: "https://www.facebook.com/lovable.dev/",
-    ariaLabel: "Lovable on Facebook",
-    path: "M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z",
-  },
 ];
 
 export default function Footer() {
@@ -88,20 +82,6 @@ export default function Footer() {
               </div>
 
             </div>
-
-            {/* Right Side - Links */}
-            <div className="flex flex-col gap-2 sm:gap-3 w-full max-w-full md:max-w-[200px]">
-              <p className="text-sm sm:text-base font-medium text-white">Product</p>
-              {footerLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-sm sm:text-base text-white opacity-75 hover:opacity-100 transition-opacity"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Divider */}
@@ -109,22 +89,19 @@ export default function Footer() {
 
           {/* Bottom Content */}
           <div className="flex flex-col gap-4 sm:gap-5 lg:gap-16">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4">
-              <p className="text-sm sm:text-base text-white opacity-75 text-center md:text-left">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-3 sm:gap-4">
+              <p className="text-sm sm:text-base text-white opacity-75 text-center">
                 © 2026 Tono Inc. All rights reserved.
               </p>
-              <div className="flex gap-2 items-center">
-                <div className="w-2 h-2">
-                  <img alt="" className="w-full h-full" src={imgEllipse7} />
-                </div>
-                <p className="text-sm sm:text-base text-white opacity-75">
-                  All systems operational
-                </p>
-              </div>
             </div>
 
             {/* Large Logo */}
-            <p className="w-full text-center font-display font-bold text-white leading-none text-[28vw] lg:text-[360px] tracking-tight">tono</p>
+            <p
+              className="w-full text-center font-display font-bold leading-none text-[28vw] lg:text-[360px] tracking-tight text-transparent"
+              style={{ WebkitTextStroke: "4px #ff8f73" }}
+            >
+              tono
+            </p>
           </div>
         </div>
       </div>
