@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Google Sans Flex"', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Onest', 'system-ui', 'sans-serif'],
+        body: ['Onest', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "oklch(var(--border))",
