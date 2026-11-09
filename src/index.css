@@ -101,6 +101,62 @@
 }
 
 @layer components {
+  /* Scoped palette: other landing sections keep their existing theme. */
+  .voice-theme {
+    --background: 0.9083641234 0.0998696719 102.5826265588;
+    --foreground: 0.2807958486 0.0285664707 252.9661293721;
+    --border: var(--foreground);
+    --ring: var(--foreground);
+    --highlight: 0.7647319863 0.1418395360 35.0019597555;
+    --highlight-foreground: var(--foreground);
+    font-family: Onest, system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+
+  .voice-theme .font-display {
+    letter-spacing: 0;
+  }
+
+  .voice-pill {
+    color: oklch(var(--foreground));
+    background: oklch(var(--highlight));
+    border: 1px solid oklch(var(--foreground));
+    border-radius: 9999px;
+    box-shadow: 4px 6px 0 0 oklch(var(--foreground));
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+  }
+
+  .voice-pill:hover {
+    box-shadow: 4px 6px 0 0 oklch(var(--foreground));
+    transform: translate(2px, 2px);
+  }
+
+  .voice-pill:active {
+    box-shadow: 1px 1px 0 0 oklch(var(--foreground));
+    transform: translate(6px, 6px);
+  }
+
+  .voice-waveform {
+    box-shadow: 16px 16px 0 0 oklch(var(--foreground));
+  }
+
+  .voice-badge-icon {
+    background: oklch(var(--foreground));
+    mask: url('/images/dd6c36abbd704b03e1997b404542ec260273d97c.svg') center / contain no-repeat;
+  }
+
+  @media (min-width: 640px) {
+    .voice-hero-cta {
+      box-shadow: 6px 8px 0 0 oklch(var(--foreground));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .voice-pill {
+      transition: none;
+    }
+  }
+
   /* Neo-brutalist button styles */
   .neo-button {
     @apply relative inline-flex items-center justify-center px-6 py-3 font-display font-bold text-foreground bg-background border-4 border-foreground transition-all duration-150;
