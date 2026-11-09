@@ -65,7 +65,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            <Button asChild className="voice-pill voice-hero-cta h-11 sm:h-12 lg:h-16 px-12 py-2.5 sm:py-2 lg:py-3 text-base lg:text-lg font-medium w-full sm:w-auto">
+            <Button asChild variant="voice" className="voice-hero-cta h-11 sm:h-12 lg:h-16 px-12 py-2.5 sm:py-2 lg:py-3 text-base lg:text-lg font-medium w-full sm:w-auto">
               <Link to="/waitlist">Join the waitlist</Link>
             </Button>
           </motion.div>

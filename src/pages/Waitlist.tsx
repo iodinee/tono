@@ -13,7 +13,7 @@ export default function Waitlist() {
 
   return (
     <main className="voice-theme fixed inset-0 h-[100dvh] w-screen overflow-hidden bg-background pt-24">
-      <Button asChild className="voice-pill fixed left-4 top-4 z-50 h-11 px-5 text-base sm:left-6 sm:top-6">
+      <Button asChild variant="voice" className="fixed left-4 top-4 z-50 h-11 px-5 text-base sm:left-6 sm:top-6">
         <Link to="/" onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "instant" })}>
           <ArrowLeft aria-hidden="true" />
           Back
