@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const imgSparklePink = "/images/d1900bb633828b5f083acf134975649dfb4dc629.svg";
-const imgEllipse7 = "/images/8b9a354c470d993df59a559e865c54bdb1aa638d.svg";
 
 const socialLinks = [
   {
