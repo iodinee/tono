@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: 'Can I export to multiple platforms at once?',
-    answer: "Absolutely! LOUDIO supports export to all major platforms including Twitter/X, LinkedIn, Notion, Google Docs, and more. You can set up custom export templates and push to multiple destinations with a single click.",
+    answer: "Absolutely! TONO supports export to all major platforms including Twitter/X, LinkedIn, Notion, Google Docs, and more. You can set up custom export templates and push to multiple destinations with a single click.",
   },
   {
     question: 'What languages are supported?',
